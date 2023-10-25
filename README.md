@@ -37,8 +37,8 @@ Certifique-se de que você tenha o Node.js instalado em seu sistema.
 Clone o repositório e instale as dependências:
 
 ```bash
-git clone https://github.com/gafanhotoalexandre/frontend-quiz.git
-cd frontend-quiz
+git clone https://github.com/gafanhotoalexandre/weather-app.git
+cd weather-app
 npm install
 npm run dev
 ```
