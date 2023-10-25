@@ -1,27 +1,44 @@
-# React + TypeScript + Vite
+<h1 align="center">Simple Weather App</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="public/preview-weather.png" alt="Simple Weather App Preview" style="border-radius: 4px">
+</p>
 
-Currently, two official plugins are available:
+<p align="center">Acesse informações climáticas em segundos!</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Visão Geral
+O Simple Weather App é uma aplicação web que permite aos usuários obter informações climáticas de qualquer cidade do mundo. Basta inserir o nome da cidade no campo de pesquisa, pressionar Enter e você receberá os dados climáticos em tempo real da API do OpenWeather.
 
-## Expanding the ESLint configuration
+## Tecnologias
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- ReactJS
+- TypeScript
+- TailwindCSS
+- API do OpenWeather
+- Vite
 
-- Configure the top-level `parserOptions` property like this:
+## Funcionalidades
+- Pesquise informações climáticas de qualquer cidade.
+- Receba dados atualizados, incluindo temperatura, umidade, velocidade do vento e muito mais.
+- Interface de usuário simples e amigável.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+<!-- ## Informações Úteis
+- Projeto no ar [aqui](https://gafanhotoalexandre.github.io/frontend-quiz/) -->
+
+## Executando o Projeto
+Certifique-se de que você tenha o Node.js instalado em seu sistema.
+
+### Pré-requisitos
+
+Certifique-se de que você tenha o Node.js instalado em seu sistema.
+
+### Instalação
+Clone o repositório e instale as dependências:
+
+```bash
+git clone https://github.com/gafanhotoalexandre/frontend-quiz.git
+cd frontend-quiz
+npm install
+npm run dev
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
