@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-sky-200
+  }
+
+  .main-container {
+    background: linear-gradient(180deg, #130754 0%, #3b2f80);
+    @apply mx-2 md:w-[507px] md:h-[529px] md:mx-auto mt-[75px] rounded-xl md:pb-0 pb-4
+  }
+
+  .top-bar {
+    @apply flex justify-center gap-[14px] pt-[60px] px-8
+  }
+  .top-bar input {
+    @apply flex w-full md:w-[300px] h-[48px] bg-[#ebfffc] outline-none rounded-full pl-10 text-[#626262] text-xl font-normal
+  }
+
+  .search-icon {
+    @apply flex justify-center items-center w-auto p-4 md:p-0 md:w-[48px] h-[48px] bg-[#ebfffc] rounded-full cursor-pointer hover:bg-[#bdfbf3] focus:ring focus:ring-[#3b2f80] outline-none transition-all
+  }
+
+  .weather-image {
+    @apply mt-[29px] flex justify-center
+  }
+
+  .weather-temp {
+    @apply flex justify-center text-white text-6xl font-normal
+  }
+
+  .weather-location {
+    @apply mt-2 flex justify-center text-white text-3xl
+  }
+
+  .data-container {
+    @apply text-white flex flex-col md:flex-row justify-center px-4 md:px-0
+  }
+
+  .element {
+    @apply m-auto flex items-center gap-3 mt-4
+  }
+
+  .data {
+    @apply text-2xl
+  }
+
+  .text {
+    @apply text-xl
+  }
+}
